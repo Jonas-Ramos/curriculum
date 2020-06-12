@@ -1,5 +1,6 @@
 body {
     width: 50vw;
+    height: 100vh;
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
@@ -92,12 +93,8 @@ p{margin: 0; padding: 10 0;}
 .content_software span span{
     padding: 0 0 0 15px;
 }
-.star{
-    background-image: url(img/icons/star.png);
-    color: red;
-}
 .checked {
-    color: rgb(190, 190, 190);
+    color: #bebebe;
   }
 
 /* REFERENCIAS */
@@ -107,6 +104,19 @@ p{margin: 0; padding: 10 0;}
     grid-row-start: 4;
     grid-row-end: 5;
 }
+.content_refer h3{
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+.content_refer p img {
+    width: 20px;
+    padding: 0 10px;
+}
+
+.content_refer p{
+    padding: 5px 0;
+}
+
 /* EXPERIENCIA LABORAL */
 .content_experience {
     grid-column-start: 2;
