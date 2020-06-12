@@ -1,5 +1,5 @@
 body {
-    width: 50vw;
+    width: 60vw;
     height: 100vh;
     margin: 0 auto;
     padding: 0;
@@ -8,7 +8,7 @@ body {
 
 h1{margin: 0; padding: 10 0;}
 h2{margin: 0; padding: 10 0;}
-h2{margin: 0; padding: 10 0;}
+h4{margin: 0 0; padding: 5px 0;}
 p{margin: 0; padding: 10 0;}
 
 .header {
@@ -41,6 +41,7 @@ p{margin: 0; padding: 10 0;}
     height: auto;
     align-items: center;
     position: relative;
+    column-gap: 40px;
 }
 /* INFO */
 .content_info {
@@ -65,11 +66,11 @@ p{margin: 0; padding: 10 0;}
     grid-row-start: 2;
     grid-row-end: 3;
 }
-.content_about h3{
+.content_about h3, .content_software h3, .content_refer h3, .content_experience h3 {
     border-bottom: 1px solid black;
     padding-bottom: 5px;
 }
-.content_about p{
+.content_about p, .content_experience p{
     text-align: justify;
 }
 
@@ -124,6 +125,15 @@ p{margin: 0; padding: 10 0;}
     grid-row-start: 1;
     grid-row-end: 4;
 }
+.experience-info{
+    display: flex;
+    align-items: baseline;
+    margin: 20px 0;
+}
+
+.text-gray{color: #bebebe}
+
+
 /* EDUCACIÓN */
 .content_educaction {
     grid-column-start: 2;
