@@ -26,7 +26,7 @@ p{margin: 0; padding: 10 0;}
 }
 
 .header_photo img {
-    max-width: 30%;
+    width: 200px;
     height: auto;
     border-radius: 50%;
 }
@@ -41,44 +41,13 @@ p{margin: 0; padding: 10 0;}
     align-items: center;
     position: relative;
 }
-
+/* INFO */
 .content_info {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
 }
-.content_about {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
-.content_software {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 4;
-}
-.content_refer {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 4;
-    grid-row-end: 5;
-}
-.content_experience {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 4;
-}
-.content_educaction {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 4;
-    grid-row-end: 5;
-}
-
 .content_info p{
     display: flex;
     padding: 10px 0;
@@ -87,3 +56,69 @@ p{margin: 0; padding: 10 0;}
     width: 20px;
     padding: 0 10px;
 }
+
+/* ABOUT */
+.content_about {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.content_about h3{
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+.content_about p{
+    text-align: justify;
+}
+
+
+
+/* PROGRAMAS */
+.content_software {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.content_software h3{
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+.content_software p{
+    display: flex;
+    justify-content: space-between;
+}
+.content_software span span{
+    padding: 0 0 0 15px;
+}
+.star{
+    background-image: url(img/icons/star.png);
+    color: red;
+}
+.checked {
+    color: rgb(190, 190, 190);
+  }
+
+/* REFERENCIAS */
+.content_refer {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+/* EXPERIENCIA LABORAL */
+.content_experience {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+/* EDUCACIÓN */
+.content_educaction {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
