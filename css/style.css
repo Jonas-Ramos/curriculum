@@ -1,10 +1,10 @@
 body {
     width: 70vw;
-    height: 100vh;
+    height: auto;
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Archivo', sans-serif;
 }
 
 h1{margin: 0; padding: 10 0;}
@@ -57,9 +57,13 @@ p{margin: 0; padding: 10 0;}
     padding: 10px 0;
 }
 .content_info p img {
-    width: 20px;
+    width: 22px;
     padding: 0 10px;
+    transform: rotate(0);
+    transition: .2s ease-in-out;
 }
+.content_info p img:hover{transform: rotate(-45deg);}
+
 
 /* ABOUT */
 .content_about {
